@@ -94,17 +94,16 @@ button:hover {
 #date {
   color: white;
 }
-@media screen 
- and (max-device-width: 800px) 
-  and (max-device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 2) 
-  and (orientation: portrait) {
-    p {
-      font-size: 1em;
-    }
-    #btn {
-      padding-top: 5rem;
-      display: block;
-      margin: auto;
-    }
+@media only  screen and (max-width:700px) {
+   #container {
+    flex-direction: column-reverse;
+    margin: 0px;
+    padding-top: 0px;
+  }
+  P {
+    font-size: 19px;
+  }
+  #btn {
+    margin-top: 5px;
+  }
 }
