@@ -5,7 +5,7 @@ html, body {
     width: 100%;
     position: absolute;
     background-color: black;
-    background-image: url('mela.jpg');
+    background-image: url('melan.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -42,7 +42,7 @@ html, body {
 
 #btn  {
   text-align: center;
-  padding-top: 27rem;
+  padding-top: 30rem;
     padding-bottom: 5em;
     /* position: absolute; */
     display: block;
@@ -95,6 +95,9 @@ button:hover {
   color: white;
 }
 @media only  screen and (max-width:700px) {
+  body {
+    background-image: url('mela.jpg');
+  }
    #container {
     flex-direction: column-reverse;
     margin: 0px;
@@ -106,4 +109,5 @@ button:hover {
   #btn {
     margin-top: 5px;
   }
+
 }
