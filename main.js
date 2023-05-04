@@ -22,6 +22,9 @@ function startTime() {
     hour = hour - 12;
     }
 //To put a Zero infront of minutes and seconds less than 10.
+   if (hour < 10){
+        hour = "0" + hour;
+    }
     if (minute < 10){
         minute = "0" + minute;
     }
